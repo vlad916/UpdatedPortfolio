@@ -8,3 +8,4 @@ made in the bootcamp.
 
 <img src="assets/images/portfolio.png"> 
 
+<img src="assets/images/contact.png"> 
