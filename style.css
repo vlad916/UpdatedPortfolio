@@ -4,25 +4,33 @@ html {
 
 /* HEADER */
 body {
-  background-color: rgb(214, 214, 214);
+  background-color: #F5F9F2;
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
+
+#header nav {
+  background-color: rgb(12, 136, 181);
+}
 #header a:hover {
-  color: red;
+  color: black;
 }
 #header a {
-  color: rgb(197, 199, 90);
+  color: white;
+  font-size: 20px;
 }
 h1 {
   font-family: serif;
-  color: rgba(214, 214, 214, 0.979);
-  background-color: rgb(22, 131, 150);
-  border-radius: 25px;
-  padding: 15px;
+  color: white;
+}
+#con {
+  color: rgb(12, 136, 181);
 }
 
+#git {
+  color: rgb(12, 136, 181);
+}
 /* MAIN */
 main {
   margin-right: 3%;
@@ -30,41 +38,26 @@ main {
   margin-bottom: 30%;
 }
 main p {
-  color: rgb(148, 10, 95);
+  color: black;
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
-  font-family: "Shojumaru", cursive;
+  font-family: 'Raleway', arial, sans-serif;
 }
-hr {
+/* hr {
   height: 1px;
-}
-.banner {
+} */
+/* .banner {
   background-image: url("assets/images/background.jpg");
   background-size: cover;
   border-radius: 15px;
-}
+} */
 
 /* FOOTER */
 footer {
-  background-image: linear-gradient(
-    to right,
-    #5da5bb,
-    rgb(58, 134, 153),
-    rgb(19, 115, 128)
-  );
+  background-color: rgb(12, 136, 181);
   margin-top: auto;
-}
-.fa-twitter {
-  color: rgb(201, 97, 37);
-}
-.fa-facebook {
-  color: rgb(26, 39, 151);
-}
-.fa-instagram {
-  color: blueviolet;
-}
-.fa-youtube {
-  color: rgb(189, 44, 44);
+  padding: 10px;
 }
 .imageText {
   position: relative;
@@ -83,3 +76,10 @@ footer {
 a {
   color: white;
 }
+footer p {
+  color: white;
+}
+footer a:hover{
+  color: black;
+}
+
