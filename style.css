@@ -92,6 +92,7 @@ img {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
+  font-size: 10px;
   color: white;
 }
 footer p {
@@ -100,6 +101,7 @@ footer p {
 footer a:hover {
   color: black;
 }
+
 #pic {
   width: 250px;
   height: 250px;
