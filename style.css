@@ -4,7 +4,7 @@ html {
 
 /* HEADER */
 body {
-  background-color: #F5F9F2;
+  background-color: #f5f9f2;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -30,20 +30,20 @@ h1 {
 }
 
 #port {
-  color:black;
+  color: black;
   font-size: 20px;
 }
 
 .port-text {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .body-text {
   color: rgb(12, 136, 181);
   margin-left: 10px;
   font-size: 35px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* MAIN */
@@ -54,19 +54,15 @@ main {
 }
 main p {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 h2 {
-  font-family: 'Raleway', arial, sans-serif;
+  font-family: "Raleway", arial, sans-serif;
 }
-/* hr {
-  height: 1px;
-} */
-/* .banner {
-  background-image: url("assets/images/background.jpg");
-  background-size: cover;
-  border-radius: 15px;
-} */
+h4 {
+  color: rgb(12, 136, 181);
+  font-family: "Raleway", sans-serif;
+}
 
 /* FOOTER */
 footer {
@@ -101,7 +97,11 @@ a {
 footer p {
   color: white;
 }
-footer a:hover{
+footer a:hover {
   color: black;
 }
-
+#pic {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
