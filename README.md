@@ -6,6 +6,9 @@ This is an updated portfolio that is build towards being a employer competitive.
 was used for the basic layout and the page's responsiveness to all devices. Also it feature's the recent projects 
 made in the bootcamp. 
 
+
+<img src="assets/images/aboutme.png"> 
+
 <img src="assets/images/portfolio.png"> 
 
 <img src="assets/images/contact.png"> 
